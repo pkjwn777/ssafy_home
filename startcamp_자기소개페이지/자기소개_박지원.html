@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>박지원 소개 페이지</title>
+    <title>자기소개 페이지</title>
     <link rel="stylesheet" href="자기소개_박지원.css">
 </head>
 <body>
-    <h1>Welcome!</h1>
-    <section class="big">
-    <h2>박지원에 대한 놀라운 사실 3가지</h2>
-    <section>
-        <h3>1. 비밀스런 블로그</h3>
-        <p>블로그를 운영하고 있다. 하지만 방문자가 적고, 안에 쓴 글이 오글거려서 아무에게도 알리지 않았다. 때문에 그녀의 지인 중 그 누구도 블로그의 존재를 모른다.</p>
-    </section>
-    <section>
-        <h3>2. 알콜 과다섭취 </h3>
-        <p>20살 때 술 먹고 지갑을 잃어버린 적이 있다. 다행히도 그 지갑 속 신분증을 보고 어떤 어르신이 집에 찾아와 건내주셨다.</p>
-    </section>
-    <section>
-        <h3>3. 망고에 미친 사람</h3>
-        <p>망고를 엄청 좋아한다. 세부에 일주일 여행 갔을 때, 7일 내내 망고 2kg를 섭취했다. 한번은 망고를 너무 먹어서 카로틴 혈증이 생겨 온몸이 노래졌다. 피부색은 한달 뒤에 되돌아왔다. </p>
-    </section>
-    </section>
+    <h1>박지원의 페이지</h1>
+    <div class="container">
+        <div class="box left">
+            <img src="data:image/jpeg;base64,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" alt="Profile Image" class="profile-image"> <!-- 동그란 사진 -->
+            <div class="white-box">
+                <p>이름 : 박지원</p>
+                <p>생일 : 1999.12.11</p>
+                <p>고향 : 대구시</p>
+                <p>가족관계 : 부모님, 남동생</p>
+                <p>특이사항 : 하나에 꽂히면 <br>그것만 먹음</p>
+            </div> <!-- 세로로 긴 흰색 박스 -->
+        </div>
+        <div class="box right">
+            <div class="upper-box">
+                <h2>진짜 개발자로 거듭나는 시간이 되도록 노력하겠습니다.
+            </div>
+            <div class="up">
+                <div class="facts">
+                    <h2>박지원에 대한 흥미로운 사실 3가지</h2>
+                    <p>1. 망친자 : 망고에 미친 자</p>
+                    <p>2. 다음 생에는 돌고래로 태어나고 싶음</p>
+                    <p>3. 영화 동아리 짱으로 활동했음.</p>
+                </div>
+            </div>
+            <div class = "down">
+                <div class="ssafy">
+                    <h2>제가 싸피에 온 이유는...</h2>
+                    <p>1. 프로젝트 실패 경험</p>
+                    <p>2. 언어 사용 경험의 부족</p>
+                    <p>3. 싸피를 통한 두려움 극복</p>
+                    <img class="down-image" src="down_image.png" alt="Overlay Image">
+                </div>
+            </div>
+            </div>
+        </div>
+    <div class="background-image-section">
+    </div>
 </body>
 </html>
